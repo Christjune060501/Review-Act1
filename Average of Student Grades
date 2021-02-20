@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main()
+{
+    float a, b, c, d, e, average;
+
+    printf("Enter Grade :");
+    scanf("%f", &a);
+    printf("Enter Grade :");
+    scanf("%f", &b);
+    printf("Enter Grade :");
+    scanf("%f", &c);
+    printf("Enter Grade :");
+    scanf("%f", &d);
+    printf("Enter Grade :");
+    scanf("%f", &e);
+
+    average = (a + b + c + d + e) / 5;
+    printf("Average : %0.2f\n", average);
+
+    if (average >= 90)
+    {
+        printf("Passed!");
+    }
+    else if (average >= 80)
+    {
+        printf("Passed!");
+    }
+    else if (average >= 75)
+    {
+        printf("Passed!");
+    }
+    else if (average >= 60)
+    {
+        printf("Failed");
+    }
+    else
+    {
+        printf("Failed");
+    }
+
+    return 0;
+}
