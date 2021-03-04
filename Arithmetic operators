@@ -21,4 +21,6 @@ int main()
     qoutient = a/b;
     printf("a/b = %.f\n",qoutient);
     
+    return 0;
+    
 }
