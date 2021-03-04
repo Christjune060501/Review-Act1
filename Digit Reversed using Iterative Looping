@@ -11,3 +11,18 @@ int main() {
     printf("Reversed number is %d", rev);
     return 0;
 }
+
+//or 
+
+#include <stdio.h>
+int main() {
+    
+    int x = 1;
+    while(x <= 10)
+    {
+        //x++; //++x //x-- //--x //could be placed either from above or under which also answer will be changed
+        printf("%d\t", x);
+        x++; //this is incremented which means that the value of x will start on counting from 1-10
+    }
+    return 0;
+}
