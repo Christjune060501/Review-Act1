@@ -17,5 +17,7 @@ int main()
   {
       printf("Invalid Age! Please try again");
   }
+  
+  return 0;
 
 }
