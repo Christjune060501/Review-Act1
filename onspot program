@@ -5,9 +5,9 @@ int main()
 {
   char sex;
   int age, ID;
-  printf("Enter Sex: \n");
+  printf("Enter Sex: ");
   scanf("%c", &sex);
-  printf("Enter ID no.: \n");
+  printf("Enter ID no.: ");
   scanf("%d", &ID);
   printf("Enter age: ");
   scanf("%d",&age);
@@ -19,7 +19,7 @@ int main()
   }
   else
   {
-      printf("You are not eligible for Voting");
+      printf(" Sorry! You are not eligible for Voting!");
   }
   //close program//
   return 0;
