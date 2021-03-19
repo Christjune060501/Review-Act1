@@ -12,7 +12,7 @@ int main()
   printf("Enter age: ");
   scanf("%d",&age);
   
-  
+  //to determine if the voter id eligible to vote or not//
   if(age>=18)
   {
       printf("You are eligible for Voting!");
